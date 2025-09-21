@@ -67,15 +67,25 @@ export const recommendationsFromQuiz = async (payload: { answers: Array<{ id: nu
 };
 
 // Auth
-export const login = async (username: string, district?: string) => {
-    const { data } = await api.post('/auth/login', { username, district });
+export const login = async (email: string, password: string) => {
+    const { data } = await api.post('/auth/login', { email, password });
     if (data?.token) localStorage.setItem('token', data.token);
+    return data;
+};
+
+export const register = async (email: string, password: string, name: string) => {
+    const { data } = await api.post('/auth/register', { email, password, name });
     return data;
 };
 
 export const me = async () => {
     const { data } = await api.get('/auth/me');
-    return data as { username: string; district?: string };
+    return data as { name?: string; email: string; phone?: string; age?: number; gender?: string; class?: string; board?: string; stream?: string };
+};
+
+export const updateProfile = async (profileData: { name?: string; email?: string; phone?: string; age?: string; gender?: string; class?: string; board?: string; stream?: string }) => {
+    const { data } = await api.put('/auth/profile', profileData);
+    return data;
 };
 
 export default api;
