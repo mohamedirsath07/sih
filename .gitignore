@@ -1,0 +1,65 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# Environment files (keep an example if needed)
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.eggs/
+*.egg-info/
+.dist-info/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.mypy_cache/
+.pytype/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Flask instance (runtime data)
+backend/instance/
+backend/instance/*.jsonl
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+frontend/.eslintcache
+frontend/coverage/
+
+# Test artifacts
+**/junit.xml
+**/coverage-*.json
+**/coverage-final.json
+
+# Misc
+*.bak
+*.orig
+*.rej
