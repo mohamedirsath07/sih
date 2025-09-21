@@ -1,0 +1,151 @@
+[
+    {
+        "name": "Government College of Jammu",
+        "location": "Jammu",
+        "courses_offered": [
+            "B.A.",
+            "B.Sc.",
+            "B.Com."
+        ],
+        "facilities": [
+            "Library",
+            "Laboratories",
+            "Hostel",
+            "Sports Complex"
+        ]
+    },
+    {
+        "name": "Government College of Arts",
+        "location": "Jammu",
+        "courses_offered": [
+            "BFA",
+            "B.A. in Fine Arts"
+        ],
+        "facilities": [
+            "Art Studio",
+            "Library",
+            "Exhibition Hall"
+        ]
+    },
+    {
+        "name": "Government Degree College, Anantnag",
+        "location": "Anantnag",
+        "courses_offered": [
+            "B.A.",
+            "B.Sc.",
+            "B.Com."
+        ],
+        "facilities": [
+            "Library",
+            "Computer Lab",
+            "Sports Facilities"
+        ]
+    },
+    {
+        "name": "Government College of Education, Jammu",
+        "location": "Jammu",
+        "courses_offered": [
+            "B.Ed."
+        ],
+        "facilities": [
+            "Library",
+            "Teaching Aids",
+            "Hostel"
+        ]
+    },
+    {
+        "name": "Government Medical College, Srinagar",
+        "location": "Srinagar",
+        "courses_offered": [
+            "MBBS",
+            "BDS"
+        ],
+        "facilities": [
+            "Hospital",
+            "Laboratories",
+            "Library"
+        ]
+    },
+    {
+        "name": "Government College of Engineering and Technology, Jammu",
+        "location": "Jammu",
+        "courses_offered": [
+            "B.Tech in Computer Science",
+            "B.Tech in Civil Engineering"
+        ],
+        "facilities": [
+            "Laboratories",
+            "Library",
+            "Hostel"
+        ]
+    },
+    {
+        "name": "Government Degree College, Baramulla",
+        "location": "Baramulla",
+        "courses_offered": [
+            "B.A.",
+            "B.Sc.",
+            "B.Com.",
+            "B.Sc. in Information Technology"
+        ],
+        "facilities": ["Library", "Computer Lab", "Sports Facilities"]
+    },
+    {
+        "name": "Women's College, Srinagar",
+        "location": "Srinagar",
+        "courses_offered": [
+            "B.A.",
+            "B.Sc.",
+            "B.Com.",
+            "BCA (Computer Applications)"
+        ],
+        "facilities": ["Library", "Laboratories", "Hostel"]
+    },
+    {
+        "name": "Islamic University of Science and Technology, Awantipora",
+        "location": "Pulwama",
+        "courses_offered": [
+            "B.Tech in Computer Science",
+            "B.Tech in Electronics & Communication",
+            "BBA"
+        ],
+        "facilities": ["Labs", "Library", "Sports"]
+    },
+    {
+        "name": "Govt. Polytechnic Jammu",
+        "location": "Jammu",
+        "courses_offered": [
+            "Diploma in Civil Engineering",
+            "Diploma in Electrical Engineering",
+            "Diploma in Computer Engineering"
+        ],
+        "facilities": ["Workshops", "Labs", "Placement Cell"]
+    },
+    {
+        "name": "Govt. Degree College, Anantnag (Women)",
+        "location": "Anantnag",
+        "courses_offered": [
+            "B.A.",
+            "B.Sc.",
+            "B.Com.",
+            "B.Sc. in Statistics"
+        ],
+        "facilities": ["Library", "Computer Lab", "Counseling Cell"]
+    },
+    {
+        "name": "Sher-e-Kashmir University of Agricultural Sciences & Technology (SKUAST-K)",
+        "location": "Srinagar",
+        "courses_offered": [
+            "B.Sc. Agriculture",
+            "B.Tech Biotechnology"
+        ],
+        "facilities": ["Research Farms", "Labs", "Library"]
+    },
+    {
+        "name": "Govt. Degree College, Udhampur",
+        "location": "Udhampur",
+        "courses_offered": ["B.A.", "B.Sc.", "B.Com."]
+        ,
+        "facilities": ["Library", "Sports", "Hostel"]
+    }
+]

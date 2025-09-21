@@ -1,0 +1,36 @@
+{
+  "faq": [
+    {
+      "question": "What is the purpose of this platform?",
+      "answer": "The platform aims to provide personalized career and education guidance to students, helping them make informed decisions about their academic paths."
+    },
+    {
+      "question": "How does the aptitude test work?",
+      "answer": "The aptitude test consists of 20 questions designed to assess your interests and strengths. Based on your responses, the platform will suggest suitable subject streams and degree options."
+    },
+    {
+      "question": "Can I access information about nearby government colleges?",
+      "answer": "Yes, the platform provides a location-based directory of nearby government colleges, including details about the courses offered and facilities available."
+    },
+    {
+      "question": "What kind of career paths can I explore?",
+      "answer": "After selecting a degree program, the platform will show you potential career paths, job opportunities, and options for higher studies related to that degree."
+    },
+    {
+      "question": "Will I receive notifications about admission deadlines?",
+      "answer": "Yes, the platform includes a timeline tracker that will notify you about important admission dates, scholarship applications, and counseling schedules."
+    },
+    {
+      "question": "Is the platform available offline?",
+      "answer": "Yes, the platform is designed to work offline, allowing you to access preloaded information and features even without an internet connection."
+    },
+    {
+      "question": "How can I get personalized recommendations?",
+      "answer": "Upon creating a user profile, the platform will use AI-driven algorithms to provide personalized recommendations for courses, colleges, and career paths based on your interests and academic background."
+    },
+    {
+      "question": "What if I have more questions?",
+      "answer": "You can use the chatbot feature to ask any career-related questions, and it will provide you with relevant information and guidance."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+[
+    {
+        "degree": "Bachelor of Arts (B.A.)",
+        "description": "A degree focusing on liberal arts, humanities, and social sciences.",
+        "career_paths": [
+            {
+                "job_title": "Teacher",
+                "average_salary": "₹3,00,000 - ₹5,00,000"
+            },
+            {
+                "job_title": "Content Writer",
+                "average_salary": "₹2,50,000 - ₹4,00,000"
+            },
+            {
+                "job_title": "Social Worker",
+                "average_salary": "₹3,00,000 - ₹6,00,000"
+            }
+        ],
+        "higher_studies": [
+            "Master of Arts (M.A.)",
+            "MBA",
+            "Law"
+        ]
+    },
+    {
+        "degree": "Bachelor of Science (B.Sc.)",
+        "description": "A degree focusing on scientific and technical subjects.",
+        "career_paths": [
+            {
+                "job_title": "Research Scientist",
+                "average_salary": "₹4,00,000 - ₹8,00,000"
+            },
+            {
+                "job_title": "Data Analyst",
+                "average_salary": "₹3,50,000 - ₹7,00,000"
+            },
+            {
+                "job_title": "Laboratory Technician",
+                "average_salary": "₹2,50,000 - ₹5,00,000"
+            }
+        ],
+        "higher_studies": [
+            "Master of Science (M.Sc.)",
+            "Engineering",
+            "Medical Studies"
+        ]
+    },
+    {
+        "degree": "Bachelor of Commerce (B.Com.)",
+        "description": "A degree focusing on commerce, finance, and business.",
+        "career_paths": [
+            {
+                "job_title": "Accountant",
+                "average_salary": "₹3,00,000 - ₹6,00,000"
+            },
+            {
+                "job_title": "Financial Analyst",
+                "average_salary": "₹4,00,000 - ₹8,00,000"
+            },
+            {
+                "job_title": "Business Consultant",
+                "average_salary": "₹5,00,000 - ₹10,00,000"
+            }
+        ],
+        "higher_studies": [
+            "Master of Commerce (M.Com.)",
+            "MBA",
+            "Chartered Accountancy (CA)"
+        ]
+    },
+    {
+        "degree": "Bachelor of Business Administration (BBA)",
+        "description": "A degree focusing on business management and administration.",
+        "career_paths": [
+            {
+                "job_title": "Business Manager",
+                "average_salary": "₹5,00,000 - ₹10,00,000"
+            },
+            {
+                "job_title": "Marketing Executive",
+                "average_salary": "₹3,00,000 - ₹6,00,000"
+            },
+            {
+                "job_title": "Entrepreneur",
+                "average_salary": "Varies"
+            }
+        ],
+        "higher_studies": [
+            "Master of Business Administration (MBA)",
+            "Post Graduate Diploma in Management (PGDM)"
+        ]
+    }
+]

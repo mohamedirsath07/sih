@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Government College of Jammu",
+        "courses": [
+            "B.A.",
+            "B.Com.",
+            "B.Sc."
+        ],
+        "location": "Jammu",
+        "facilities": [
+            "Library",
+            "Hostel",
+            "Laboratories",
+            "Sports Complex"
+        ]
+    },
+    {
+        "name": "Government Degree College, Anantnag",
+        "courses": [
+            "B.A.",
+            "B.Sc.",
+            "B.Com."
+        ],
+        "location": "Anantnag",
+        "facilities": [
+            "Library",
+            "Hostel",
+            "Computer Lab"
+        ]
+    },
+    {
+        "name": "Government College for Women, Gandhi Nagar",
+        "courses": [
+            "B.A.",
+            "B.Com."
+        ],
+        "location": "Gandhi Nagar, Jammu",
+        "facilities": [
+            "Library",
+            "Hostel",
+            "Cafeteria"
+        ]
+    },
+    {
+        "name": "Government College of Education, Jammu",
+        "courses": [
+            "B.Ed."
+        ],
+        "location": "Jammu",
+        "facilities": [
+            "Library",
+            "Laboratories",
+            "Sports Facilities"
+        ]
+    },
+    {
+        "name": "Government Medical College, Srinagar",
+        "courses": [
+            "MBBS",
+            "BDS"
+        ],
+        "location": "Srinagar",
+        "facilities": [
+            "Hospital",
+            "Library",
+            "Laboratories"
+        ]
+    },
+    {
+        "name": "Government Polytechnic College, Jammu",
+        "courses": [
+            "Diploma in Engineering"
+        ],
+        "location": "Jammu",
+        "facilities": [
+            "Laboratories",
+            "Workshop",
+            "Library"
+        ]
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "career": "Software Engineer",
+        "description": "Develops applications and systems software.",
+        "average_salary": "₹6,00,000 - ₹12,00,000",
+        "higher_studies": ["M.Tech", "M.S. in Computer Science"],
+        "related_courses": ["B.Tech in Computer Science", "B.Sc. in Information Technology"]
+    },
+    {
+        "career": "Data Scientist",
+        "description": "Analyzes and interprets complex data to help organizations make decisions.",
+        "average_salary": "₹8,00,000 - ₹15,00,000",
+        "higher_studies": ["M.Sc. in Data Science", "MBA in Business Analytics"],
+        "related_courses": ["B.Sc. in Statistics", "B.Tech in Data Science"]
+    },
+    {
+        "career": "Teacher",
+        "description": "Educates students in various subjects.",
+        "average_salary": "₹3,00,000 - ₹6,00,000",
+        "higher_studies": ["M.A. in Education", "B.Ed."],
+        "related_courses": ["B.A. in Education", "B.Sc. in Education"]
+    },
+    {
+        "career": "Civil Engineer",
+        "description": "Designs and supervises construction projects.",
+        "average_salary": "₹5,00,000 - ₹10,00,000",
+        "higher_studies": ["M.Tech in Structural Engineering"],
+        "related_courses": ["B.Tech in Civil Engineering"]
+    },
+    {
+        "career": "Nurse",
+        "description": "Provides medical care and support to patients.",
+        "average_salary": "₹2,50,000 - ₹5,00,000",
+        "higher_studies": ["M.Sc. in Nursing"],
+        "related_courses": ["B.Sc. in Nursing"]
+    },
+    {
+        "career": "Accountant",
+        "description": "Manages financial records and prepares financial statements.",
+        "average_salary": "₹3,00,000 - ₹7,00,000",
+        "higher_studies": ["CA", "MBA in Finance"],
+        "related_courses": ["B.Com", "BBA in Finance"]
+    },
+    {
+        "career": "Graphic Designer",
+        "description": "Creates visual content to communicate messages.",
+        "average_salary": "₹3,00,000 - ₹6,00,000",
+        "higher_studies": ["M.A. in Graphic Design"],
+        "related_courses": ["B.Des in Graphic Design", "BFA"]
+    },
+    {
+        "career": "Marketing Manager",
+        "description": "Oversees marketing strategies and campaigns.",
+        "average_salary": "₹6,00,000 - ₹12,00,000",
+        "higher_studies": ["MBA in Marketing"],
+        "related_courses": ["BBA in Marketing", "B.Com"]
+    },
+    {
+        "career": "Forestry Officer",
+        "description": "Manages forest resources, conservation, and rural development.",
+        "average_salary": "₹4,00,000 - ₹8,00,000",
+        "higher_studies": ["M.Sc. Forestry"],
+        "related_courses": ["B.Sc. Agriculture", "B.Sc. Forestry"]
+    },
+    {
+        "career": "Tourism Manager",
+        "description": "Plans and manages tourism services, eco-tourism, and hospitality operations.",
+        "average_salary": "₹3,50,000 - ₹7,00,000",
+        "higher_studies": ["MBA in Tourism"],
+        "related_courses": ["B.A. in Tourism Studies", "BBA"]
+    },
+    {
+        "career": "Electronics Technician",
+        "description": "Builds and maintains electronic systems and devices.",
+        "average_salary": "₹2,50,000 - ₹5,50,000",
+        "higher_studies": ["B.Tech in Electronics & Communication"],
+        "related_courses": ["Diploma in Electronics Engineering", "B.Tech in Electronics & Communication"]
+    },
+    {
+        "career": "Cybersecurity Analyst",
+        "description": "Protects systems and data from threats; monitors and responds to incidents.",
+        "average_salary": "₹6,00,000 - ₹14,00,000",
+        "higher_studies": ["M.Tech in Information Security", "PG Diploma in Cybersecurity"],
+        "related_courses": ["B.Tech in Computer Science", "B.Sc. in Information Technology"]
+    },
+    {
+        "career": "Renewable Energy Engineer",
+        "description": "Designs and deploys solar, wind, and micro-hydro energy solutions.",
+        "average_salary": "₹5,00,000 - ₹10,00,000",
+        "higher_studies": ["M.Tech in Energy Systems"],
+        "related_courses": ["B.Tech in Electrical Engineering", "B.Tech in Mechanical Engineering"]
+    },
+    {
+        "career": "Nursing Assistant",
+        "description": "Assists nursing staff with patient care and clinical duties.",
+        "average_salary": "₹2,00,000 - ₹3,50,000",
+        "higher_studies": ["B.Sc. in Nursing"],
+        "related_courses": ["Diploma in General Nursing", "B.Sc. in Nursing"]
+    }
+]

@@ -1,0 +1,36 @@
+@import url('../styles/globals.css');
+
+.sch-container{ padding: 16px 20px; max-width: 1100px; margin: 0 auto; }
+.sch-header{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; margin-bottom: 12px; }
+.sch-header h1{ font-size: 1.6rem; font-weight: 800; letter-spacing: -0.01em; }
+
+.sch-filters{ display:flex; flex-wrap:wrap; gap:8px; align-items:center }
+.sch-filters input[type="search"],
+.sch-filters input[type="number"],
+.sch-filters input[type="date"],
+.sch-filters select{ padding:8px 10px; border:1px solid var(--sgp-border); border-radius:8px; font-size:0.95rem; background:#fff }
+.sch-filters input[type="search"]{ min-width: 260px; }
+
+.sch-loading{ padding: 16px; color: var(--sgp-muted); }
+
+.sch-grid{ display:grid; grid-template-columns: repeat(1, minmax(0,1fr)); gap:12px; }
+@media (min-width:640px){ .sch-grid{ grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (min-width:1024px){ .sch-grid{ grid-template-columns: repeat(3, minmax(0,1fr)); } }
+
+/* Card */
+.sch-card{ background:#fff; border:1px solid var(--sgp-border); border-radius:12px; padding:14px; display:flex; flex-direction:column; gap:10px; box-shadow: 0 1px 0 rgba(16,24,40,.04); }
+.sch-card__header{ display:flex; align-items:center; justify-content:space-between; gap:10px; }
+.sch-card__title{ font-size:1.05rem; font-weight:700; margin:0; }
+.sch-card__pill{ background:#eef4ff; color: var(--sgp-primary-ink); padding:4px 8px; border-radius:999px; font-weight:700; font-size:0.9rem; }
+.sch-card__eligibility{ margin:0; color: var(--sgp-muted); font-size:0.95rem }
+.sch-card__eligibility span{ color:#111; font-weight:600 }
+.sch-card__meta{ display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+.meta{ display:flex; align-items:center; gap:6px; padding:4px 8px; border:1px dashed var(--sgp-border); border-radius:8px; font-size:0.85rem }
+.meta .k{ color: var(--sgp-muted) }
+.meta .v{ font-weight:600 }
+.chip{ padding:4px 8px; border:1px solid var(--sgp-border); border-radius:999px; font-size:0.8rem; color:#334155; background:#f8fafc }
+.sch-card__desc{ margin:0; font-size:0.92rem; color:#475569 }
+.sch-card__actions{ display:flex; justify-content:flex-end }
+.btn{ border:1px solid var(--sgp-border); background:#fff; color:#111827; padding:8px 12px; border-radius:8px; font-weight:600; cursor:not-allowed }
+.btn-primary{ background: var(--sgp-primary); color:#fff; border: none; cursor:pointer }
+.btn-primary:hover{ background: var(--sgp-primary-ink) }

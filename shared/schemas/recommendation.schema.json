@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Recommendation",
+  "type": "object",
+  "properties": {
+    "studentId": {
+      "type": "string",
+      "description": "Unique identifier for the student."
+    },
+    "recommendedCourses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "courseId": {
+            "type": "string",
+            "description": "Unique identifier for the course."
+          },
+          "courseName": {
+            "type": "string",
+            "description": "Name of the recommended course."
+          },
+          "careerPaths": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Possible career paths associated with the course."
+            }
+          },
+          "averageSalary": {
+            "type": "number",
+            "description": "Average salary for jobs related to the course."
+          }
+        },
+        "required": ["courseId", "courseName", "careerPaths", "averageSalary"]
+      }
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The time when the recommendation was generated."
+    }
+  },
+  "required": ["studentId", "recommendedCourses", "timestamp"]
+}

@@ -1,0 +1,42 @@
+[
+    {
+        "scholarshipName": "Jammu & Kashmir Scholarship for Higher Education",
+        "description": "A scholarship program aimed at supporting students from Jammu & Kashmir pursuing higher education.",
+        "eligibility": "Students must have completed their 12th grade and be enrolled in a recognized college.",
+        "amount": "Up to ₹50,000 per year",
+        "applicationDeadline": "June 30, 2023",
+        "website": "http://jk-scholarships.gov.in"
+    },
+    {
+        "scholarshipName": "Post-Matric Scholarship for OBC Students",
+        "description": "Financial assistance for OBC students pursuing post-matriculation education.",
+        "eligibility": "Students belonging to OBC category with family income less than ₹2.5 lakh per annum.",
+        "amount": "Varies based on the course and institution.",
+        "applicationDeadline": "July 15, 2023",
+        "website": "http://jk-scholarships.gov.in"
+    },
+    {
+        "scholarshipName": "Merit-cum-Means Scholarship",
+        "description": "Scholarship for students from economically weaker sections based on merit.",
+        "eligibility": "Students must have secured at least 50% marks in the previous examination.",
+        "amount": "Up to ₹30,000 per year",
+        "applicationDeadline": "August 31, 2023",
+        "website": "http://jk-scholarships.gov.in"
+    },
+    {
+        "scholarshipName": "National Scholarship for Students with Disabilities",
+        "description": "Support for students with disabilities pursuing higher education.",
+        "eligibility": "Students with a disability certificate and enrolled in a recognized institution.",
+        "amount": "Up to ₹50,000 per year",
+        "applicationDeadline": "September 15, 2023",
+        "website": "http://jk-scholarships.gov.in"
+    },
+    {
+        "scholarshipName": "Central Sector Scheme of Scholarships for College and University Students",
+        "description": "Scholarship for students from low-income families pursuing higher education.",
+        "eligibility": "Students must have scored above 80% in their 12th grade.",
+        "amount": "₹10,000 per year",
+        "applicationDeadline": "October 31, 2023",
+        "website": "http://jk-scholarships.gov.in"
+    }
+]

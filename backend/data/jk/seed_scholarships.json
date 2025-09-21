@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Merit-based Scholarship",
+        "amount": 5000,
+        "eligibility": "Students with 85% and above in Class 12",
+        "application_deadline": "2023-06-30",
+        "details": "Awarded to students based on academic performance."
+    },
+    {
+        "name": "Need-based Scholarship",
+        "amount": 3000,
+        "eligibility": "Students from low-income families",
+        "application_deadline": "2023-07-15",
+        "details": "Financial assistance for students in need."
+    },
+    {
+        "name": "Sports Scholarship",
+        "amount": 7000,
+        "eligibility": "Students who excel in sports",
+        "application_deadline": "2023-05-31",
+        "details": "For students who have represented at state or national level."
+    },
+    {
+        "name": "Cultural Scholarship",
+        "amount": 4000,
+        "eligibility": "Students with exceptional talent in arts and culture",
+        "application_deadline": "2023-08-15",
+        "details": "Supports students pursuing cultural activities."
+    },
+    {
+        "name": "STEM Scholarship",
+        "amount": 6000,
+        "eligibility": "Students enrolling in Science, Technology, Engineering, and Mathematics courses",
+        "application_deadline": "2023-07-01",
+        "details": "Encourages students to pursue STEM fields."
+    },
+    {
+        "name": "J&K Post-Matric Scholarship (State)",
+        "amount": 12000,
+        "eligibility": "Students from Jammu & Kashmir enrolled in UG programs; annual family income below ₹200000",
+        "application_deadline": "2025-08-15",
+        "details": "State scheme supporting undergraduate studies for residents of Jammu & Kashmir.",
+        "applicable_states": ["Jammu & Kashmir"],
+        "category": "need-based"
+    },
+    {
+        "name": "Women in STEM Excellence Grant",
+        "amount": 25000,
+        "eligibility": "Female students admitted to B.Tech, B.Sc, or related STEM programs",
+        "application_deadline": "2025-07-31",
+        "details": "Supports girls and women pursuing STEM degrees with mentorship and stipend.",
+        "gender": "female",
+        "category": "merit"
+    },
+    {
+        "name": "Minority Students Support Scholarship",
+        "amount": 15000,
+        "eligibility": "Students from notified minority communities with income below ₹250000",
+        "application_deadline": "2025-09-10",
+        "details": "Tuition assistance for meritorious minority students pursuing UG degrees.",
+        "category": "need-based"
+    },
+    {
+        "name": "Sports Talent Scholarship (State Level)",
+        "amount": 18000,
+        "eligibility": "Students who represented at state or national level sports; attendance 75%+",
+        "application_deadline": "2025-06-30",
+        "details": "Encourages excellence in sports alongside academics.",
+        "category": "sports"
+    },
+    {
+        "name": "Arts & Culture Fellowship",
+        "amount": 14000,
+        "eligibility": "Students with achievements in fine arts, music, theatre, or crafts",
+        "application_deadline": "2025-11-30",
+        "details": "Supports training and materials for cultural pursuits.",
+        "category": "cultural"
+    },
+    {
+        "name": "Rural Students Merit Scholarship",
+        "amount": 10000,
+        "eligibility": "Students from rural districts of J&K with 80%+ in Class 12",
+        "application_deadline": "2025-08-01",
+        "details": "Aims to bridge educational access gaps for rural youth in Jammu & Kashmir.",
+        "category": "merit"
+    },
+    {
+        "name": "Tech Innovators Scholarship",
+        "amount": 22000,
+        "eligibility": "Students pursuing B.Tech in Computer Science, IT, or ECE",
+        "application_deadline": "2026-01-15",
+        "details": "Awarded for demonstrated interest in innovation, coding, or hardware projects.",
+        "category": "merit"
+    }
+]

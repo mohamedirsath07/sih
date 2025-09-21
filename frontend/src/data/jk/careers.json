@@ -1,0 +1,67 @@
+{
+  "careers": [
+    {
+      "name": "Software Engineer",
+      "description": "Develops software applications and systems.",
+      "average_salary": "₹6,00,000",
+      "higher_studies": ["M.Tech", "MBA"],
+      "related_courses": ["B.Tech in Computer Science", "BCA"]
+    },
+    {
+      "name": "Doctor",
+      "description": "Provides medical care and treatment to patients.",
+      "average_salary": "₹8,00,000",
+      "higher_studies": ["MD", "MS"],
+      "related_courses": ["MBBS", "BDS"]
+    },
+    {
+      "name": "Teacher",
+      "description": "Educates students in various subjects.",
+      "average_salary": "₹3,00,000",
+      "higher_studies": ["M.Ed", "PhD"],
+      "related_courses": ["B.A. in Education", "B.Sc. in Education"]
+    },
+    {
+      "name": "Civil Engineer",
+      "description": "Designs and oversees construction projects.",
+      "average_salary": "₹5,00,000",
+      "higher_studies": ["M.Tech in Civil Engineering"],
+      "related_courses": ["B.Tech in Civil Engineering"]
+    },
+    {
+      "name": "Accountant",
+      "description": "Manages financial records and statements.",
+      "average_salary": "₹4,00,000",
+      "higher_studies": ["CA", "CMA"],
+      "related_courses": ["B.Com", "BBA"]
+    },
+    {
+      "name": "Graphic Designer",
+      "description": "Creates visual content to communicate messages.",
+      "average_salary": "₹3,50,000",
+      "higher_studies": ["MFA", "Diploma in Graphic Design"],
+      "related_courses": ["BFA", "B.Des"]
+    },
+    {
+      "name": "Data Scientist",
+      "description": "Analyzes and interprets complex data to help organizations make decisions.",
+      "average_salary": "₹10,00,000",
+      "higher_studies": ["M.Sc. in Data Science"],
+      "related_courses": ["B.Sc. in Statistics", "B.Tech in Computer Science"]
+    },
+    {
+      "name": "Nurse",
+      "description": "Provides care for patients and assists doctors.",
+      "average_salary": "₹3,00,000",
+      "higher_studies": ["B.Sc. in Nursing", "M.Sc. in Nursing"],
+      "related_courses": ["GNM", "ANM"]
+    },
+    {
+      "name": "Entrepreneur",
+      "description": "Starts and manages new business ventures.",
+      "average_salary": "Varies",
+      "higher_studies": ["MBA"],
+      "related_courses": ["BBA", "B.Com"]
+    }
+  ]
+}

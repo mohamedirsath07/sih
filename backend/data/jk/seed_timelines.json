@@ -1,0 +1,42 @@
+[
+  {
+    "id": "adm-2025-jammu-ba",
+    "type": "admission",
+    "title": "BA admissions open - Govt. College Jammu",
+    "district": "Jammu",
+    "start_date": "2025-05-15",
+    "end_date": "2025-06-15",
+    "details": "Applications for BA 2025-26 session.",
+    "link": "https://example.gov/jammu/ba-admissions"
+  },
+  {
+    "id": "sch-2025-jk-merit",
+    "type": "scholarship",
+    "title": "J&K Merit Scholarship 2025",
+    "district": "Jammu & Kashmir",
+    "start_date": "2025-07-01",
+    "end_date": "2025-10-15",
+    "details": "Merit scholarship for class 12 toppers.",
+    "link": "https://example.gov/jk/merit"
+  },
+  {
+    "id": "exam-2025-gdc-common",
+    "type": "exam",
+    "title": "Common Entrance (GDC) 2025",
+    "district": "Srinagar",
+    "start_date": "2025-06-20",
+    "end_date": "2025-06-21",
+    "details": "State common entrance for degree programs.",
+    "link": "https://example.gov/jk/gdc-exam"
+  },
+  {
+    "id": "couns-2025-round1",
+    "type": "counseling",
+    "title": "Counseling Round 1",
+    "district": "Anantnag",
+    "start_date": "2025-07-10",
+    "end_date": "2025-07-12",
+    "details": "Seat allocation counseling round 1.",
+    "link": "https://example.gov/jk/counseling-round1"
+  }
+]

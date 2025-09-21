@@ -1,0 +1,14 @@
+.results{max-width:1100px;margin:0 auto;padding:16px}
+.results__hero{margin:8px 0 16px}
+.badge{display:inline-block;background:#e0ebff;color:#0b5fff;border:1px solid #c7d2fe;padding:6px 10px;border-radius:999px;font-weight:600}
+.results__cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-bottom:16px}
+.card{background:#fff;border:1px solid var(--sgp-border);border-radius:12px;padding:12px}
+.results__colleges .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.college{background:#fff;border:1px solid var(--sgp-border);border-radius:12px;padding:12px}
+.college__title{font-weight:700}
+.college__sub{color:var(--sgp-muted);font-size:.95rem;margin-bottom:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:#f3f4f6;border:1px solid #e5e7eb;border-radius:999px;padding:2px 8px;font-size:.85rem}
+.results__cta{display:flex;gap:8px;margin-top:12px}
+.btn{display:inline-block;background:#0b5fff;color:#fff;border-radius:8px;padding:8px 12px}
+.btn--secondary{background:#eef2ff;color:#0b5fff}

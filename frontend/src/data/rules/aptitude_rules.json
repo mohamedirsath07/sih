@@ -1,0 +1,85 @@
+{
+  "rules": [
+    {
+      "question": "What is your favorite subject?",
+      "options": [
+        {
+          "answer": "Mathematics",
+          "stream": "Science"
+        },
+        {
+          "answer": "History",
+          "stream": "Arts"
+        },
+        {
+          "answer": "Business Studies",
+          "stream": "Commerce"
+        },
+        {
+          "answer": "Biology",
+          "stream": "Science"
+        },
+        {
+          "answer": "Political Science",
+          "stream": "Arts"
+        },
+        {
+          "answer": "Accountancy",
+          "stream": "Commerce"
+        }
+      ]
+    },
+    {
+      "question": "Do you enjoy working with numbers?",
+      "options": [
+        {
+          "answer": "Yes",
+          "stream": "Commerce"
+        },
+        {
+          "answer": "No",
+          "stream": "Arts"
+        }
+      ]
+    },
+    {
+      "question": "Are you interested in technology?",
+      "options": [
+        {
+          "answer": "Yes",
+          "stream": "Science"
+        },
+        {
+          "answer": "No",
+          "stream": "Arts"
+        }
+      ]
+    },
+    {
+      "question": "Do you prefer creative subjects?",
+      "options": [
+        {
+          "answer": "Yes",
+          "stream": "Arts"
+        },
+        {
+          "answer": "No",
+          "stream": "Science"
+        }
+      ]
+    },
+    {
+      "question": "Do you want to pursue a career in business?",
+      "options": [
+        {
+          "answer": "Yes",
+          "stream": "Commerce"
+        },
+        {
+          "answer": "No",
+          "stream": "Science"
+        }
+      ]
+    }
+  ]
+}

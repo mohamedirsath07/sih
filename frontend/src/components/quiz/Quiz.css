@@ -1,0 +1,10 @@
+.quiz-form{max-width:720px;margin:0 auto}
+.quiz-block{margin:12px 0}
+.quiz-question{font-size:1.1rem;font-weight:600}
+.quiz-options{display:grid;gap:8px}
+.quiz-option{display:flex;gap:8px;align-items:center}
+.quiz-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
+.quiz-progressbar{width:100%; height:10px; margin:6px 0 12px 0}
+.quiz-progressbar::-webkit-progress-bar{background:#eef2ff; border-radius:999px}
+.quiz-progressbar::-webkit-progress-value{background:#0b5fff; border-radius:999px}
+.quiz-progressbar::-moz-progress-bar{background:#0b5fff; border-radius:999px}

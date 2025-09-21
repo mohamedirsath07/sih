@@ -1,0 +1,12 @@
+@import url('../styles/globals.css');
+
+.profile-wrap{ display:flex; justify-content:center; align-items:flex-start; padding:16px; min-height: calc(100vh - 140px) }
+.profile-card{ width:100%; max-width:560px; background:#fff; border:1px solid var(--sgp-border); border-radius:12px; padding:18px; box-shadow: 0 1px 0 rgba(16,24,40,.04) }
+.profile-card h1{ margin:0 0 10px 0; font-size:1.6rem; font-weight:800 }
+.profile-details{ display:grid; gap:8px; margin: 8px 0 16px 0 }
+.row{ display:flex; justify-content:space-between; padding:8px 10px; border:1px dashed var(--sgp-border); border-radius:10px }
+.k{ color:#64748b }
+.v{ font-weight:700 }
+.profile-actions{ display:flex; justify-content:flex-end }
+.btn{ border:1px solid var(--sgp-border); background:#fff; color:#111827; padding:8px 12px; border-radius:8px; font-weight:600; cursor:pointer }
+.btn:hover{ background:#f8fafc }

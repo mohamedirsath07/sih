@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Timeline Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the timeline entry."
+    },
+    "event": {
+      "type": "string",
+      "description": "Description of the event."
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of the event."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["admission", "scholarship", "counseling", "exam"],
+      "description": "Type of the timeline event."
+    },
+    "details": {
+      "type": "object",
+      "properties": {
+        "link": {
+          "type": "string",
+          "format": "uri",
+          "description": "Link for more information about the event."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional notes related to the event."
+        }
+      },
+      "required": ["link"],
+      "additionalProperties": true
+    }
+  },
+  "required": ["id", "event", "date", "type", "details"],
+  "additionalProperties": false
+}

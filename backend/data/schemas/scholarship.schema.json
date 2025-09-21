@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Scholarship",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the scholarship"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the scholarship"
+    },
+    "amount": {
+      "type": "number",
+      "description": "Amount awarded by the scholarship"
+    },
+    "eligibility": {
+      "type": "string",
+      "description": "Eligibility criteria for the scholarship"
+    },
+    "applicationDeadline": {
+      "type": "string",
+      "format": "date",
+      "description": "Deadline for scholarship applications"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the scholarship"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Website link for more information"
+    }
+  },
+  "required": ["id", "name", "amount", "eligibility", "applicationDeadline"]
+}

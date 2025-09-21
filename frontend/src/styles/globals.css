@@ -1,0 +1,84 @@
+:root{
+    --sgp-bg:#f6f7fb;
+    --sgp-surface:#ffffff;
+    --sgp-text:#0f172a; /* slate-900 */
+    --sgp-muted:#64748b; /* slate-500 */
+    --sgp-primary:#2563eb; /* indigo-600/blue-600 blend */
+    --sgp-primary-ink:#1d4ed8; /* darker */
+    --sgp-border:#e5e7eb;
+    --sgp-ring:#dbeafe; /* focus ring */
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background-color: var(--sgp-bg);
+    color: var(--sgp-text);
+    line-height: 1.45;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.syncBanner { padding: 8px 12px; background: #eff6ff; border-bottom:1px solid var(--sgp-border); font-size: 0.95rem; display:flex; gap:10px; align-items:center }
+.syncBanner .dot{width:10px;height:10px;border-radius:50%}
+.syncBanner .dot.ok{background:#16a34a}
+.syncBanner .dot.syncing{background:#eab308}
+.syncBanner .dot.error{background:#dc2626}
+
+.syncBanner-offline {
+    margin-left: 12px;
+    color: #d04;
+    font-weight: 600;
+}
+
+a { text-decoration: none; color: var(--sgp-primary) }
+a:hover { text-decoration: underline }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.button { display:inline-block; padding:10px 14px; border:none; border-radius:8px; background-color: var(--sgp-primary); color:#fff; cursor:pointer; font-weight:700 }
+.button:hover { background-color: var(--sgp-primary-ink) }
+
+/* Inputs baseline */
+input, select, textarea { font: inherit; color: inherit; }
+input[type="text"], input[type="search"], input[type="number"], input[type="date"], select, textarea {
+    padding:10px 12px; border:1px solid var(--sgp-border); border-radius:8px; background: var(--sgp-surface);
+}
+input:focus, select:focus, textarea:focus { outline: 3px solid var(--sgp-ring) }
+
+/* Utility container */
+.container { max-width: 1100px; margin: 0 auto; padding: 16px }
+
+/* Elevation helper */
+.surface { background: var(--sgp-surface); border:1px solid var(--sgp-border); border-radius:12px; box-shadow:0 1px 0 rgba(16,24,40,.04) }
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.header { background-color: var(--sgp-primary); color:#fff; padding: 10px 0; text-align:center }
+.footer { background-color: var(--sgp-primary); color:#fff; padding: 10px 0; text-align:center; position:relative; bottom:0; width:100% }
