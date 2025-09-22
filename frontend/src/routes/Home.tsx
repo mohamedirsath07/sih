@@ -17,11 +17,46 @@ const Home: React.FC = () => {
                 <section className="home-links">
                     <h2>Quick Links</h2>
                     <ul>
-                        <li><Link to="/quiz">Take the Aptitude Test</Link></li>
-                        <li><Link to="/colleges">Find Nearby Colleges</Link></li>
-                        <li><Link to="/scholarships">Explore Scholarships</Link></li>
-                        <li><Link to="/timeline">Check Admission Timelines</Link></li>
-                        <li><Link to="/profile">Your Profile</Link></li>
+                        <li>
+                            <Link to="/quiz">
+                                <span className="link-content">
+                                    <span className="link-icon">🎯</span>
+                                    <span className="link-text">Take the Aptitude Test</span>
+                                </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/colleges">
+                                <span className="link-content">
+                                    <span className="link-icon">🏫</span>
+                                    <span className="link-text">Find Nearby Colleges</span>
+                                </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/scholarships">
+                                <span className="link-content">
+                                    <span className="link-icon">💰</span>
+                                    <span className="link-text">Explore Scholarships</span>
+                                </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/timeline">
+                                <span className="link-content">
+                                    <span className="link-icon">📅</span>
+                                    <span className="link-text">Check Admission Timelines</span>
+                                </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/profile">
+                                <span className="link-content">
+                                    <span className="link-icon">👤</span>
+                                    <span className="link-text">Your Profile</span>
+                                </span>
+                            </Link>
+                        </li>
                     </ul>
                 </section>
             </main>

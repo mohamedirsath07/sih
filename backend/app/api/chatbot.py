@@ -1,38 +1,32 @@
 from flask import Blueprint, request, jsonify
-import json
-import os
+from app.services.chatbot import enhanced_chatbot
 
-chatbot_bp = Blueprint('chatbot', __name__)
+bp = Blueprint('chatbot', __name__)
 
-# Load FAQ data from JSON file
-faq_file_path = os.path.join(os.path.dirname(__file__), 'faq.json')
-
-def load_faq_data():
-    with open(faq_file_path, 'r') as f:
-        return json.load(f)
-
-faq_data = load_faq_data()
-
-@chatbot_bp.route('/api/chatbot/faq', methods=['GET'])
-def get_faq():
-    return jsonify(faq_data)
-
-@chatbot_bp.route('/api/chatbot/ask', methods=['POST'])
+@bp.route('/ask', methods=['POST'])
 def ask_chatbot():
-    user_input = request.json.get('question', '')
-    # Simple rule-based response for demonstration
-    if user_input:
-        response = generate_response(user_input)
+    data = request.get_json()
+    query = data.get('message', '').strip()  # Changed from 'question' to 'message' to match frontend
+    user_profile = data.get('user_profile', {})
+    
+    if not query:
+        return jsonify({'error': 'Message is required'}), 400
+    
+    try:
+        response = enhanced_chatbot.generate_response(query, user_profile)
         return jsonify({'response': response})
-    return jsonify({'error': 'No question provided'}), 400
+    except Exception as e:
+        print(f"Chatbot API error: {e}")
+        return jsonify({'response': 'Sorry, I encountered an error. Please try again.'}), 500
 
-def generate_response(question):
-    # Basic keyword matching for response generation
-    if 'graduation' in question.lower():
-        return "Graduation is important as it opens up various career opportunities."
-    elif 'courses' in question.lower():
-        return "You can choose from various courses like B.A., B.Sc., B.Com., etc."
-    elif 'scholarships' in question.lower():
-        return "There are several scholarships available for students in Jammu & Kashmir."
-    else:
-        return "I'm sorry, I don't have an answer for that. Please check the FAQ."
+@bp.route('/faq', methods=['GET'])
+def get_faq():
+    return jsonify({'faq': enhanced_chatbot.data_sources.get('faq', [])})
+
+@bp.route('/stats', methods=['GET'])
+def get_chatbot_stats():
+    """Get statistics about loaded data sources"""
+    stats = {}
+    for key, data in enhanced_chatbot.data_sources.items():
+        stats[key] = len(data) if isinstance(data, list) else 0
+    return jsonify(stats)

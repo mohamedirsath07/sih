@@ -28,6 +28,7 @@ def create_app():
     from .api import recommendations as recommendations_bp
     from .api import timelines_api as timelines_bp
     from .api import auth_lite as auth_lite_bp
+    from .api import chatbot as chatbot_bp
 
     app.register_blueprint(meta_bp.bp, url_prefix='/api')
     app.register_blueprint(datasets_bp.bp, url_prefix='/api/datasets')
@@ -35,6 +36,7 @@ def create_app():
     app.register_blueprint(recommendations_bp.bp, url_prefix='/api/recommendations')
     app.register_blueprint(timelines_bp.bp, url_prefix='/api')
     app.register_blueprint(auth_lite_bp.bp, url_prefix='/api')
+    app.register_blueprint(chatbot_bp.bp, url_prefix='/api/chatbot')
 
     return app
 

@@ -88,4 +88,15 @@ export const updateProfile = async (profileData: { name?: string; email?: string
     return data;
 };
 
+// Chatbot
+export const askChatbot = async (question: string, userProfile?: any) => {
+    const { data } = await api.post('/chatbot/ask', { question, user_profile: userProfile });
+    return data;
+};
+
+export const getChatbotStats = async () => {
+    const { data } = await api.get('/chatbot/stats');
+    return data;
+};
+
 export default api;
